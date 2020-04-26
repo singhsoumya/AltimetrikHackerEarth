@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1140EE0F2455DCE100A3DBF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1140EE0E2455DCE100A3DBF5 /* AppDelegate.swift */; };
+		1140EE112455DCE100A3DBF5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1140EE102455DCE100A3DBF5 /* SceneDelegate.swift */; };
+		1140EE132455DCE100A3DBF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1140EE122455DCE100A3DBF5 /* ViewController.swift */; };
+		1140EE162455DCE100A3DBF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1140EE142455DCE100A3DBF5 /* Main.storyboard */; };
+		1140EE192455DCE100A3DBF5 /* AltimetrikHackerEarth.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1140EE172455DCE100A3DBF5 /* AltimetrikHackerEarth.xcdatamodeld */; };
+		1140EE1B2455DCE500A3DBF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1140EE1A2455DCE500A3DBF5 /* Assets.xcassets */; };
+		1140EE1E2455DCE500A3DBF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1140EE1C2455DCE500A3DBF5 /* LaunchScreen.storyboard */; };
+		1140EE292455DCE600A3DBF5 /* AltimetrikHackerEarthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1140EE282455DCE600A3DBF5 /* AltimetrikHackerEarthTests.swift */; };
+		1140EE342455DCE600A3DBF5 /* AltimetrikHackerEarthUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1140EE332455DCE600A3DBF5 /* AltimetrikHackerEarthUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1140EE252455DCE600A3DBF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1140EE032455DCE000A3DBF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1140EE0A2455DCE100A3DBF5;
+			remoteInfo = AltimetrikHackerEarth;
+		};
+		1140EE302455DCE600A3DBF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1140EE032455DCE000A3DBF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1140EE0A2455DCE100A3DBF5;
+			remoteInfo = AltimetrikHackerEarth;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1140EE0B2455DCE100A3DBF5 /* AltimetrikHackerEarth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AltimetrikHackerEarth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1140EE0E2455DCE100A3DBF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1140EE102455DCE100A3DBF5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1140EE122455DCE100A3DBF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1140EE152455DCE100A3DBF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1140EE182455DCE100A3DBF5 /* AltimetrikHackerEarth.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AltimetrikHackerEarth.xcdatamodel; sourceTree = "<group>"; };
+		1140EE1A2455DCE500A3DBF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1140EE1D2455DCE500A3DBF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1140EE1F2455DCE500A3DBF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1140EE242455DCE600A3DBF5 /* AltimetrikHackerEarthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AltimetrikHackerEarthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1140EE282455DCE600A3DBF5 /* AltimetrikHackerEarthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AltimetrikHackerEarthTests.swift; sourceTree = "<group>"; };
+		1140EE2A2455DCE600A3DBF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1140EE2F2455DCE600A3DBF5 /* AltimetrikHackerEarthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AltimetrikHackerEarthUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1140EE332455DCE600A3DBF5 /* AltimetrikHackerEarthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AltimetrikHackerEarthUITests.swift; sourceTree = "<group>"; };
+		1140EE352455DCE600A3DBF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1140EE082455DCE100A3DBF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1140EE212455DCE600A3DBF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1140EE2C2455DCE600A3DBF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1140EE022455DCE000A3DBF5 = {
+			isa = PBXGroup;
+			children = (
+				1140EE0D2455DCE100A3DBF5 /* AltimetrikHackerEarth */,
+				1140EE272455DCE600A3DBF5 /* AltimetrikHackerEarthTests */,
+				1140EE322455DCE600A3DBF5 /* AltimetrikHackerEarthUITests */,
+				1140EE0C2455DCE100A3DBF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1140EE0C2455DCE100A3DBF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1140EE0B2455DCE100A3DBF5 /* AltimetrikHackerEarth.app */,
+				1140EE242455DCE600A3DBF5 /* AltimetrikHackerEarthTests.xctest */,
+				1140EE2F2455DCE600A3DBF5 /* AltimetrikHackerEarthUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1140EE0D2455DCE100A3DBF5 /* AltimetrikHackerEarth */ = {
+			isa = PBXGroup;
+			children = (
+				1140EE0E2455DCE100A3DBF5 /* AppDelegate.swift */,
+				1140EE102455DCE100A3DBF5 /* SceneDelegate.swift */,
+				1140EE122455DCE100A3DBF5 /* ViewController.swift */,
+				1140EE142455DCE100A3DBF5 /* Main.storyboard */,
+				1140EE1A2455DCE500A3DBF5 /* Assets.xcassets */,
+				1140EE1C2455DCE500A3DBF5 /* LaunchScreen.storyboard */,
+				1140EE1F2455DCE500A3DBF5 /* Info.plist */,
+				1140EE172455DCE100A3DBF5 /* AltimetrikHackerEarth.xcdatamodeld */,
+			);
+			path = AltimetrikHackerEarth;
+			sourceTree = "<group>";
+		};
+		1140EE272455DCE600A3DBF5 /* AltimetrikHackerEarthTests */ = {
+			isa = PBXGroup;
+			children = (
+				1140EE282455DCE600A3DBF5 /* AltimetrikHackerEarthTests.swift */,
+				1140EE2A2455DCE600A3DBF5 /* Info.plist */,
+			);
+			path = AltimetrikHackerEarthTests;
+			sourceTree = "<group>";
+		};
+		1140EE322455DCE600A3DBF5 /* AltimetrikHackerEarthUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1140EE332455DCE600A3DBF5 /* AltimetrikHackerEarthUITests.swift */,
+				1140EE352455DCE600A3DBF5 /* Info.plist */,
+			);
+			path = AltimetrikHackerEarthUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1140EE0A2455DCE100A3DBF5 /* AltimetrikHackerEarth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1140EE382455DCE600A3DBF5 /* Build configuration list for PBXNativeTarget "AltimetrikHackerEarth" */;
+			buildPhases = (
+				1140EE072455DCE100A3DBF5 /* Sources */,
+				1140EE082455DCE100A3DBF5 /* Frameworks */,
+				1140EE092455DCE100A3DBF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AltimetrikHackerEarth;
+			productName = AltimetrikHackerEarth;
+			productReference = 1140EE0B2455DCE100A3DBF5 /* AltimetrikHackerEarth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1140EE232455DCE600A3DBF5 /* AltimetrikHackerEarthTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1140EE3B2455DCE600A3DBF5 /* Build configuration list for PBXNativeTarget "AltimetrikHackerEarthTests" */;
+			buildPhases = (
+				1140EE202455DCE600A3DBF5 /* Sources */,
+				1140EE212455DCE600A3DBF5 /* Frameworks */,
+				1140EE222455DCE600A3DBF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1140EE262455DCE600A3DBF5 /* PBXTargetDependency */,
+			);
+			name = AltimetrikHackerEarthTests;
+			productName = AltimetrikHackerEarthTests;
+			productReference = 1140EE242455DCE600A3DBF5 /* AltimetrikHackerEarthTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1140EE2E2455DCE600A3DBF5 /* AltimetrikHackerEarthUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1140EE3E2455DCE600A3DBF5 /* Build configuration list for PBXNativeTarget "AltimetrikHackerEarthUITests" */;
+			buildPhases = (
+				1140EE2B2455DCE600A3DBF5 /* Sources */,
+				1140EE2C2455DCE600A3DBF5 /* Frameworks */,
+				1140EE2D2455DCE600A3DBF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1140EE312455DCE600A3DBF5 /* PBXTargetDependency */,
+			);
+			name = AltimetrikHackerEarthUITests;
+			productName = AltimetrikHackerEarthUITests;
+			productReference = 1140EE2F2455DCE600A3DBF5 /* AltimetrikHackerEarthUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1140EE032455DCE000A3DBF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Soumya, Singh";
+				TargetAttributes = {
+					1140EE0A2455DCE100A3DBF5 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					1140EE232455DCE600A3DBF5 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 1140EE0A2455DCE100A3DBF5;
+					};
+					1140EE2E2455DCE600A3DBF5 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 1140EE0A2455DCE100A3DBF5;
+					};
+				};
+			};
+			buildConfigurationList = 1140EE062455DCE100A3DBF5 /* Build configuration list for PBXProject "AltimetrikHackerEarth" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1140EE022455DCE000A3DBF5;
+			productRefGroup = 1140EE0C2455DCE100A3DBF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1140EE0A2455DCE100A3DBF5 /* AltimetrikHackerEarth */,
+				1140EE232455DCE600A3DBF5 /* AltimetrikHackerEarthTests */,
+				1140EE2E2455DCE600A3DBF5 /* AltimetrikHackerEarthUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1140EE092455DCE100A3DBF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1140EE1E2455DCE500A3DBF5 /* LaunchScreen.storyboard in Resources */,
+				1140EE1B2455DCE500A3DBF5 /* Assets.xcassets in Resources */,
+				1140EE162455DCE100A3DBF5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1140EE222455DCE600A3DBF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1140EE2D2455DCE600A3DBF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1140EE072455DCE100A3DBF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1140EE132455DCE100A3DBF5 /* ViewController.swift in Sources */,
+				1140EE0F2455DCE100A3DBF5 /* AppDelegate.swift in Sources */,
+				1140EE192455DCE100A3DBF5 /* AltimetrikHackerEarth.xcdatamodeld in Sources */,
+				1140EE112455DCE100A3DBF5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1140EE202455DCE600A3DBF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1140EE292455DCE600A3DBF5 /* AltimetrikHackerEarthTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1140EE2B2455DCE600A3DBF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1140EE342455DCE600A3DBF5 /* AltimetrikHackerEarthUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1140EE262455DCE600A3DBF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1140EE0A2455DCE100A3DBF5 /* AltimetrikHackerEarth */;
+			targetProxy = 1140EE252455DCE600A3DBF5 /* PBXContainerItemProxy */;
+		};
+		1140EE312455DCE600A3DBF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1140EE0A2455DCE100A3DBF5 /* AltimetrikHackerEarth */;
+			targetProxy = 1140EE302455DCE600A3DBF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1140EE142455DCE100A3DBF5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1140EE152455DCE100A3DBF5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1140EE1C2455DCE500A3DBF5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1140EE1D2455DCE500A3DBF5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1140EE362455DCE600A3DBF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1140EE372455DCE600A3DBF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1140EE392455DCE600A3DBF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AltimetrikHackerEarth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Honeywell.AltimetrikHackerEarth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1140EE3A2455DCE600A3DBF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AltimetrikHackerEarth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Honeywell.AltimetrikHackerEarth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1140EE3C2455DCE600A3DBF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AltimetrikHackerEarthTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Honeywell.AltimetrikHackerEarthTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AltimetrikHackerEarth.app/AltimetrikHackerEarth";
+			};
+			name = Debug;
+		};
+		1140EE3D2455DCE600A3DBF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AltimetrikHackerEarthTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Honeywell.AltimetrikHackerEarthTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AltimetrikHackerEarth.app/AltimetrikHackerEarth";
+			};
+			name = Release;
+		};
+		1140EE3F2455DCE600A3DBF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AltimetrikHackerEarthUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Honeywell.AltimetrikHackerEarthUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AltimetrikHackerEarth;
+			};
+			name = Debug;
+		};
+		1140EE402455DCE600A3DBF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AltimetrikHackerEarthUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Honeywell.AltimetrikHackerEarthUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AltimetrikHackerEarth;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1140EE062455DCE100A3DBF5 /* Build configuration list for PBXProject "AltimetrikHackerEarth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1140EE362455DCE600A3DBF5 /* Debug */,
+				1140EE372455DCE600A3DBF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1140EE382455DCE600A3DBF5 /* Build configuration list for PBXNativeTarget "AltimetrikHackerEarth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1140EE392455DCE600A3DBF5 /* Debug */,
+				1140EE3A2455DCE600A3DBF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1140EE3B2455DCE600A3DBF5 /* Build configuration list for PBXNativeTarget "AltimetrikHackerEarthTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1140EE3C2455DCE600A3DBF5 /* Debug */,
+				1140EE3D2455DCE600A3DBF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1140EE3E2455DCE600A3DBF5 /* Build configuration list for PBXNativeTarget "AltimetrikHackerEarthUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1140EE3F2455DCE600A3DBF5 /* Debug */,
+				1140EE402455DCE600A3DBF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1140EE172455DCE100A3DBF5 /* AltimetrikHackerEarth.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1140EE182455DCE100A3DBF5 /* AltimetrikHackerEarth.xcdatamodel */,
+			);
+			currentVersion = 1140EE182455DCE100A3DBF5 /* AltimetrikHackerEarth.xcdatamodel */;
+			path = AltimetrikHackerEarth.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1140EE032455DCE000A3DBF5 /* Project object */;
+}
