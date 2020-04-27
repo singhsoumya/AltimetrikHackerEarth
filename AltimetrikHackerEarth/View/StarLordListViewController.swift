@@ -118,11 +118,14 @@ extension StarLordListViewController : UITableViewDelegate, UITableViewDataSourc
                 let eachStarData = filteredDataList[indexPath.row]
                 cell.titleLabel.text = eachStarData.title
                 cell.descriptionLabel.text = eachStarData.blurb
+                cell.pleageAmount.text = "\(eachStarData.amtPledged ?? 0)"
+                cell.noOfbackers.text = eachStarData.numBackers
             }else {
                 let eachStarData = dataList[indexPath.row]
                 cell.titleLabel.text = eachStarData.title
                 cell.descriptionLabel.text = eachStarData.blurb
-                
+                cell.pleageAmount.text = "\(eachStarData.amtPledged ?? 0)"
+                cell.noOfbackers.text = eachStarData.numBackers
             }
             return cell
         }
@@ -199,4 +202,6 @@ class StarLordDataCell: UITableViewCell {
     
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var descriptionLabel: UILabel!
+    @IBOutlet weak var pleageAmount: UILabel!
+    @IBOutlet weak var noOfbackers: UILabel!
 }
