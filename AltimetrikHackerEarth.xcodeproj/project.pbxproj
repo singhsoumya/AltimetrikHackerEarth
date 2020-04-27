@@ -7,15 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		110E777824574E2500F15086 /* StarLordDetailViewControllerTestCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110E777724574E2500F15086 /* StarLordDetailViewControllerTestCases.swift */; };
 		1140EE0F2455DCE100A3DBF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1140EE0E2455DCE100A3DBF5 /* AppDelegate.swift */; };
 		1140EE112455DCE100A3DBF5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1140EE102455DCE100A3DBF5 /* SceneDelegate.swift */; };
-		1140EE132455DCE100A3DBF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1140EE122455DCE100A3DBF5 /* ViewController.swift */; };
+		1140EE132455DCE100A3DBF5 /* StarLordListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1140EE122455DCE100A3DBF5 /* StarLordListViewController.swift */; };
 		1140EE162455DCE100A3DBF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1140EE142455DCE100A3DBF5 /* Main.storyboard */; };
 		1140EE192455DCE100A3DBF5 /* AltimetrikHackerEarth.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1140EE172455DCE100A3DBF5 /* AltimetrikHackerEarth.xcdatamodeld */; };
 		1140EE1B2455DCE500A3DBF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1140EE1A2455DCE500A3DBF5 /* Assets.xcassets */; };
 		1140EE1E2455DCE500A3DBF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1140EE1C2455DCE500A3DBF5 /* LaunchScreen.storyboard */; };
-		1140EE292455DCE600A3DBF5 /* AltimetrikHackerEarthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1140EE282455DCE600A3DBF5 /* AltimetrikHackerEarthTests.swift */; };
 		1140EE342455DCE600A3DBF5 /* AltimetrikHackerEarthUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1140EE332455DCE600A3DBF5 /* AltimetrikHackerEarthUITests.swift */; };
+		1140EE422455E17A00A3DBF5 /* StarlordDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1140EE412455E17A00A3DBF5 /* StarlordDetailViewController.swift */; };
+		1140EE442455E21200A3DBF5 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1140EE432455E21200A3DBF5 /* Connection.swift */; };
+		1140EE482455E7F700A3DBF5 /* StarLordDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1140EE472455E7F700A3DBF5 /* StarLordDataModel.swift */; };
+		1140EE4B2455E9D300A3DBF5 /* CommonPostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1140EE4A2455E9D300A3DBF5 /* CommonPostService.swift */; };
+		1140EE4D2455EA6200A3DBF5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1140EE4C2455EA6200A3DBF5 /* Constants.swift */; };
+		1140EE4F2455ECCF00A3DBF5 /* ServiceInitiator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1140EE4E2455ECCF00A3DBF5 /* ServiceInitiator.swift */; };
+		1140EE532455F00700A3DBF5 /* CommonDataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1140EE522455F00700A3DBF5 /* CommonDataParser.swift */; };
+		1140EE552455F0FC00A3DBF5 /* AppDataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1140EE542455F0FC00A3DBF5 /* AppDataParser.swift */; };
+		1140EE572455F29100A3DBF5 /* DataBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1140EE562455F29100A3DBF5 /* DataBaseManager.swift */; };
+		1140EE5A24560AF700A3DBF5 /* SpinnerAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1140EE5924560AF700A3DBF5 /* SpinnerAlertView.swift */; };
+		1140EE5C2456A18F00A3DBF5 /* UtilityFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1140EE5B2456A18F00A3DBF5 /* UtilityFile.swift */; };
+		1140EE5E2456C95200A3DBF5 /* StarLordListViewControllerTestsCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1140EE5D2456C95200A3DBF5 /* StarLordListViewControllerTestsCases.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,21 +48,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		110E777724574E2500F15086 /* StarLordDetailViewControllerTestCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarLordDetailViewControllerTestCases.swift; sourceTree = "<group>"; };
 		1140EE0B2455DCE100A3DBF5 /* AltimetrikHackerEarth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AltimetrikHackerEarth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1140EE0E2455DCE100A3DBF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1140EE102455DCE100A3DBF5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1140EE122455DCE100A3DBF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1140EE122455DCE100A3DBF5 /* StarLordListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarLordListViewController.swift; sourceTree = "<group>"; };
 		1140EE152455DCE100A3DBF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1140EE182455DCE100A3DBF5 /* AltimetrikHackerEarth.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AltimetrikHackerEarth.xcdatamodel; sourceTree = "<group>"; };
 		1140EE1A2455DCE500A3DBF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1140EE1D2455DCE500A3DBF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1140EE1F2455DCE500A3DBF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1140EE242455DCE600A3DBF5 /* AltimetrikHackerEarthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AltimetrikHackerEarthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1140EE282455DCE600A3DBF5 /* AltimetrikHackerEarthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AltimetrikHackerEarthTests.swift; sourceTree = "<group>"; };
 		1140EE2A2455DCE600A3DBF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1140EE2F2455DCE600A3DBF5 /* AltimetrikHackerEarthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AltimetrikHackerEarthUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1140EE332455DCE600A3DBF5 /* AltimetrikHackerEarthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AltimetrikHackerEarthUITests.swift; sourceTree = "<group>"; };
 		1140EE352455DCE600A3DBF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1140EE412455E17A00A3DBF5 /* StarlordDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarlordDetailViewController.swift; sourceTree = "<group>"; };
+		1140EE432455E21200A3DBF5 /* Connection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
+		1140EE472455E7F700A3DBF5 /* StarLordDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarLordDataModel.swift; sourceTree = "<group>"; };
+		1140EE4A2455E9D300A3DBF5 /* CommonPostService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonPostService.swift; sourceTree = "<group>"; };
+		1140EE4C2455EA6200A3DBF5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1140EE4E2455ECCF00A3DBF5 /* ServiceInitiator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceInitiator.swift; sourceTree = "<group>"; };
+		1140EE522455F00700A3DBF5 /* CommonDataParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonDataParser.swift; sourceTree = "<group>"; };
+		1140EE542455F0FC00A3DBF5 /* AppDataParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDataParser.swift; sourceTree = "<group>"; };
+		1140EE562455F29100A3DBF5 /* DataBaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseManager.swift; sourceTree = "<group>"; };
+		1140EE5924560AF700A3DBF5 /* SpinnerAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerAlertView.swift; sourceTree = "<group>"; };
+		1140EE5B2456A18F00A3DBF5 /* UtilityFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityFile.swift; sourceTree = "<group>"; };
+		1140EE5D2456C95200A3DBF5 /* StarLordListViewControllerTestsCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarLordListViewControllerTestsCases.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +125,12 @@
 		1140EE0D2455DCE100A3DBF5 /* AltimetrikHackerEarth */ = {
 			isa = PBXGroup;
 			children = (
+				1140EE5824560ADA00A3DBF5 /* helperFiles */,
+				1140EE492455E9BD00A3DBF5 /* ViewModel */,
+				1140EE462455E39900A3DBF5 /* Model */,
 				1140EE0E2455DCE100A3DBF5 /* AppDelegate.swift */,
 				1140EE102455DCE100A3DBF5 /* SceneDelegate.swift */,
-				1140EE122455DCE100A3DBF5 /* ViewController.swift */,
-				1140EE142455DCE100A3DBF5 /* Main.storyboard */,
+				1140EE452455E37E00A3DBF5 /* View */,
 				1140EE1A2455DCE500A3DBF5 /* Assets.xcassets */,
 				1140EE1C2455DCE500A3DBF5 /* LaunchScreen.storyboard */,
 				1140EE1F2455DCE500A3DBF5 /* Info.plist */,
@@ -116,8 +142,9 @@
 		1140EE272455DCE600A3DBF5 /* AltimetrikHackerEarthTests */ = {
 			isa = PBXGroup;
 			children = (
-				1140EE282455DCE600A3DBF5 /* AltimetrikHackerEarthTests.swift */,
 				1140EE2A2455DCE600A3DBF5 /* Info.plist */,
+				1140EE5D2456C95200A3DBF5 /* StarLordListViewControllerTestsCases.swift */,
+				110E777724574E2500F15086 /* StarLordDetailViewControllerTestCases.swift */,
 			);
 			path = AltimetrikHackerEarthTests;
 			sourceTree = "<group>";
@@ -129,6 +156,47 @@
 				1140EE352455DCE600A3DBF5 /* Info.plist */,
 			);
 			path = AltimetrikHackerEarthUITests;
+			sourceTree = "<group>";
+		};
+		1140EE452455E37E00A3DBF5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1140EE142455DCE100A3DBF5 /* Main.storyboard */,
+				1140EE122455DCE100A3DBF5 /* StarLordListViewController.swift */,
+				1140EE412455E17A00A3DBF5 /* StarlordDetailViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1140EE462455E39900A3DBF5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1140EE472455E7F700A3DBF5 /* StarLordDataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1140EE492455E9BD00A3DBF5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1140EE4A2455E9D300A3DBF5 /* CommonPostService.swift */,
+				1140EE4E2455ECCF00A3DBF5 /* ServiceInitiator.swift */,
+				1140EE522455F00700A3DBF5 /* CommonDataParser.swift */,
+				1140EE542455F0FC00A3DBF5 /* AppDataParser.swift */,
+				1140EE562455F29100A3DBF5 /* DataBaseManager.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1140EE5824560ADA00A3DBF5 /* helperFiles */ = {
+			isa = PBXGroup;
+			children = (
+				1140EE432455E21200A3DBF5 /* Connection.swift */,
+				1140EE4C2455EA6200A3DBF5 /* Constants.swift */,
+				1140EE5924560AF700A3DBF5 /* SpinnerAlertView.swift */,
+				1140EE5B2456A18F00A3DBF5 /* UtilityFile.swift */,
+			);
+			path = helperFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,10 +330,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1140EE132455DCE100A3DBF5 /* ViewController.swift in Sources */,
+				1140EE132455DCE100A3DBF5 /* StarLordListViewController.swift in Sources */,
+				1140EE442455E21200A3DBF5 /* Connection.swift in Sources */,
+				1140EE552455F0FC00A3DBF5 /* AppDataParser.swift in Sources */,
+				1140EE4B2455E9D300A3DBF5 /* CommonPostService.swift in Sources */,
+				1140EE4F2455ECCF00A3DBF5 /* ServiceInitiator.swift in Sources */,
 				1140EE0F2455DCE100A3DBF5 /* AppDelegate.swift in Sources */,
+				1140EE5C2456A18F00A3DBF5 /* UtilityFile.swift in Sources */,
+				1140EE422455E17A00A3DBF5 /* StarlordDetailViewController.swift in Sources */,
+				1140EE5A24560AF700A3DBF5 /* SpinnerAlertView.swift in Sources */,
+				1140EE532455F00700A3DBF5 /* CommonDataParser.swift in Sources */,
 				1140EE192455DCE100A3DBF5 /* AltimetrikHackerEarth.xcdatamodeld in Sources */,
 				1140EE112455DCE100A3DBF5 /* SceneDelegate.swift in Sources */,
+				1140EE482455E7F700A3DBF5 /* StarLordDataModel.swift in Sources */,
+				1140EE4D2455EA6200A3DBF5 /* Constants.swift in Sources */,
+				1140EE572455F29100A3DBF5 /* DataBaseManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +352,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1140EE292455DCE600A3DBF5 /* AltimetrikHackerEarthTests.swift in Sources */,
+				110E777824574E2500F15086 /* StarLordDetailViewControllerTestCases.swift in Sources */,
+				1140EE5E2456C95200A3DBF5 /* StarLordListViewControllerTestsCases.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +519,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V8GX6NVQ84;
 				INFOPLIST_FILE = AltimetrikHackerEarth/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -456,6 +537,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V8GX6NVQ84;
 				INFOPLIST_FILE = AltimetrikHackerEarth/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -474,6 +556,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V8GX6NVQ84;
 				INFOPLIST_FILE = AltimetrikHackerEarthTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -495,6 +578,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V8GX6NVQ84;
 				INFOPLIST_FILE = AltimetrikHackerEarthTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -515,6 +599,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V8GX6NVQ84;
 				INFOPLIST_FILE = AltimetrikHackerEarthUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -534,6 +619,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V8GX6NVQ84;
 				INFOPLIST_FILE = AltimetrikHackerEarthUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
